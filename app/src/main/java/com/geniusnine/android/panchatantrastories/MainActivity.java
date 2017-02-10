@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity
             Intent i = new Intent(Intent.ACTION_SEND);
             i.setType("text/plain");
             i.putExtra(Intent.EXTRA_TEXT, "message to share");
-            startActivity(Intent.createChooser(i, "Share via"));
+            startActivity(Intent.createChooser(i, "Share via..."));
             return true;
         }
 
